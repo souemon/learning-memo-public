@@ -1,4 +1,4 @@
-#### ()はいつ必要か
+#### method の()はいつ必要か
 
 click の後ろの""内は「JavaScript 式」か「Vue の記法」が使える。
 「countDown」は Vue の記法で method 名を書き、「countDown()」は JavaScript 式である。
