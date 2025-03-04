@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter1#if
 
 type If<C extends boolean, T, F> = C extends true ? T : F;
+
+// 2回目：OK
