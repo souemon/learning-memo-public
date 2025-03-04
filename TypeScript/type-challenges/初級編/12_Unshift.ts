@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter1#unshift
 
 type Unshift<T extends any[], U> = [U, ...T];
+
+// 2回目：OK
