@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter1#awaited
 
 type MyAwaited<T> = T extends PromiseLike<infer U> ? MyAwaited<U> : T;
+
+// 2回目：NG
