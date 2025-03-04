@@ -6,3 +6,9 @@ type Includes<T extends readonly any[], U> = T extends [infer K, ...infer Rest]
     ? Equal<U, K>
     : Includes<Rest, U>
   : false;
+
+// type Includes<T extends readonly any[], U> = T extends [infer K, ...infer Rest]
+// ? Equal<K,U> extends true ? true : Includes<Rest,U>
+// : false;
+
+// 2回目：NG
