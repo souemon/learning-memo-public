@@ -6,3 +6,5 @@ type MyParameters<T extends (...args: any[]) => any> = T extends (
 ) => any
   ? R
   : never;
+
+// 2回目：NG
