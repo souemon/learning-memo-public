@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter1#push
 
 type Push<T extends any[], U> = [...T, U];
+
+// 2回目：OK
