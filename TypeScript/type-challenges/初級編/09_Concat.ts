@@ -5,3 +5,5 @@ type Concat<T extends readonly unknown[], U extends readonly unknown[]> = [
   ...T,
   ...U
 ];
+
+// 2回目：NG
