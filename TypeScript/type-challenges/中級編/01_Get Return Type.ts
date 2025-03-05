@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter2#get-return-type
 
 type MyReturnType<T> = T extends (...args: any[]) => infer R ? R : never;
+
+// 2回目：OK
