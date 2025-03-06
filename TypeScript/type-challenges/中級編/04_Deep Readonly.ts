@@ -8,3 +8,5 @@ type DeepReadonly<T> = {
       : DeepReadonly<T[P]>
     : T[P];
 };
+
+// 2回目：NG
