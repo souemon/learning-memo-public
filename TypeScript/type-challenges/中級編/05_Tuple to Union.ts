@@ -2,3 +2,5 @@
 // 出典：https://zenn.dev/yskn_sid25/books/type-challenges/viewer/chapter2#tuple-to-union
 
 type TupleToUnion<T extends any[]> = T[number];
+
+// 2回目：OK
