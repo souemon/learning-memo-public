@@ -7,3 +7,5 @@ declare function PromiseAll<T extends any[]>(
 ): Promise<{
   [K in keyof T]: MyAwaited<T[K]>;
 }>;
+
+// 2回目：NG
