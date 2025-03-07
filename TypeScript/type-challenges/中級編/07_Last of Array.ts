@@ -4,3 +4,9 @@
 type Last<T extends any[]> = T["length"] extends 0
   ? never
   : [never, ...T][T["length"]];
+
+// type Last<T extends any[]> = T extends [...First, infer Last]
+//   ? Last
+//   : never
+
+// 2回目：NG
