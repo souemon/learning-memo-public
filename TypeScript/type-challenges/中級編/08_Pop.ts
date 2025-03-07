@@ -6,3 +6,11 @@ type Pop<T extends any[]> = T["length"] extends 0
   : T extends [...rest: infer R, last: infer L]
   ? R
   : never;
+
+// type Pop<T extends any[]> = T extends []
+// ? []
+// : T extends [...infer R, infer L]
+// ? R
+// : never;
+
+// 2回目：NG
