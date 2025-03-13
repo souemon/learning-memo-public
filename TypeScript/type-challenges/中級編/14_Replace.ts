@@ -10,3 +10,5 @@ type Replace<
   : S extends `${infer L}${From}${infer R}`
   ? `${L}${To}${R}`
   : S;
+
+// 2回目：NG
