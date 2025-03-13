@@ -7,3 +7,5 @@ type Trim<S extends string> = S extends `${trimChars}${infer Rest}`
   : S extends `${infer Rest}${trimChars}`
   ? Trim<Rest>
   : S;
+
+// 2回目：NG
