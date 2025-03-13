@@ -6,3 +6,5 @@ type LookUp<U, T> = U extends {
 }
   ? U
   : never;
+
+// 2回目：NG
