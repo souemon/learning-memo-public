@@ -15,3 +15,5 @@ type AppendArgument<Fn extends (...args: any[]) => unknown, A> = (
 // type AppendArgument<Fn extends (...args: any[]) => unknown, A> = (
 //   ...args: [...Parameters<Fn>, A]
 // ) => ReturnType<Fn>;
+
+// 2回目：NG
